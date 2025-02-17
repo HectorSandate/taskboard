@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: django_app
+    environment:
+      - DJANGO_SETTINGS_MODULE=taskmanager.settings
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: ["gunicorn", "taskmanager.wsgi:application", "--bind", "0.0.0.0:8000"]
+volumes:
+  back_mysql_data:
