@@ -43,7 +43,7 @@ Este proyecto es una API y aplicación web de productividad para la gestión de 
 ### 5️⃣ **Verificar que la API está corriendo**
 
 ```bash
- curl http://localhost:8000/api/tasks/
+ curl https://taskboard-s9aq.onrender.com/api/tasks/
 ```
 
 ---
@@ -75,39 +75,13 @@ Este proyecto es una API y aplicación web de productividad para la gestión de 
 - Importa el archivo `postman_collection.json`.
 - Ejecuta las pruebas de los endpoints.
 
----
-
-## 🌐 Despliegue en Producción (Opcional)
-
-Puedes desplegar la aplicación en **Heroku** o un servidor con Docker.
-
-### 📌 **Pasos para despliegue en Heroku**
-
-```bash
- heroku container:login
- heroku create taskmanager-api
- heroku container:push web -a taskmanager-api
- heroku container:release web -a taskmanager-api
-```
 
 ---
 
-## 📜 Contribuciones
+## 🧑‍💻 Autor
 
-Si deseas contribuir, ¡eres bienvenido! 😊
+📌 **Hector Jose Diaz Sandate**  
+🔗 [LinkedIn](www.linkedin.com/in/héctor-josé-díaz-sandate-5a51b5278)  
+📧 [Email](hectorjosediazsandate@gmail.com)  
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature-nueva-funcionalidad`).
-3. Haz commit de tus cambios (`git commit -m "Agregada nueva funcionalidad"`).
-4. Realiza un push a la rama (`git push origin feature-nueva-funcionalidad`).
-5. Abre un Pull Request.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT.
-
-📌 **Autor:** Tu Nombre\
-📧 **Contacto:** [tuemail@example.com](mailto\:tuemail@example.com)
 
